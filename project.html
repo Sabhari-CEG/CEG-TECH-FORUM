@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PROJECTS</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Archivo+Black&display=swap" rel="stylesheet">
+
+
+
+
+
+<style media="screen">
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+height: 100vh;
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-pack: center;
+-ms-flex-pack: center;
+justify-content: center;
+-webkit-box-align: center;
+-ms-flex-align: center;
+align-items: center;
+-webkit-perspective: 1000px;
+perspective: 1000px;
+-webkit-transform-style: preserve-3d;
+transform-style: preserve-3d;
+position: relative;
+font-family: "Montserrat";
+}
+
+.container {
+min-width: 300px;
+min-height: 480px;
+max-width: 400px;
+
+border-radius: 20px;
+position: relative;
+-webkit-transition: 1.0s ease-in-out;
+transition: 1.0s ease-in-out;
+transform-style: preserve-3d;
+}
+
+.side {
+position: absolute;
+text-align: center;
+width: 100%;
+height: 100%;
+padding: 20px 20px;
+color: #fff;
+transform-style: preserve-3d;
+backface-visibility: hidden;
+border-radius: 20px;
+}
+.content {
+transform: translatez(70px) scale(0.8);
+line-height: 1.5em;
+}
+.content h1 {
+position: relative;
+}
+.content p {
+margin-top: 50px;
+line-height: 2em;
+font-size: 18px;
+}
+.content h1:before {
+content: "";
+position: absolute;
+bottom: -20px;
+height: 3px;
+background-color: #3e3;
+width: 70px;
+left: 50%;
+transform: translateX(-50%);
+}
+.front {
+z-index: 2;
+background-color: #ff193b;
+background-size: 100vh;
+background-size: cover;
+
+}
+.back {
+background-color: #ff193b;
+transform: rotateY(180deg);
+z-index: 0;
+padding-top: 10px;
+
+}
+.container:hover {
+-webkit-transform: rotateY(180deg);
+transform: rotateY(180deg);
+}
+
+.back h1 {
+margin: 0;
+}
+form label,
+form input {
+display: block;
+}
+form input,
+form textarea {
+background: transparent;
+border: 0;
+border-bottom: 2px solid #444;
+padding: 5px;
+width: 100%;
+color: #fff;
+}
+form label {
+margin: 15px 0;
+}
+form input[type="submit"] {
+display: block;
+width: auto;
+margin: 10px auto;
+padding: 5px 10px;
+border: 3px solid #555;
+border-radius: 4px;
+color: #fff;
+cursor: pointer;
+}
+/* my button style  */
+.white-mode {
+text-decoration: none;
+padding: 7px 10px;
+background-color: #122;
+border-radius: 3px;
+color: #fff;
+transition: 0.35s ease-in-out;
+position: fixed;
+left: 15px;
+bottom: 15px;
+font-family: "Montserrat";
+}
+
+.white-mode:hover {
+background-color: #fff;
+color: #122;
+}
+
+.container > section {
+    margin: 0 auto;
+    padding: 5em 0.5em;
+    text-align: center;
+    color: #fff;
+}
+.container > section div {
+    position: relative;
+    margin: 0;
+    z-index: 1;
+}
+.container > section div.text {
+    font-size: 1.4em;
+}
+
+.color-pattern-4 {
+    background: #CC2E8C;
+  }
+
+</style>
+
+<style media="screen">
+.button {
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background: none;
+  cursor: pointer;
+  padding: 15px 45px;
+  display: inline-block;
+  margin: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 500;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  align-self: center;
+}
+.button:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.button-4 {
+    border-radius: 50px;
+    border: 3px solid #fff;
+    color: #fff;
+    overflow: hidden;
+}
+.button-4:active {
+    border-color: #902866;
+    color: #902866;
+}
+.button-4:hover {
+    background: #AB327A;
+}
+.button-4>.fa {
+    position: absolute;
+    height: 100%;
+    font-size: 125%;
+    line-height: 3.5;
+    color: #fff;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.button-4:active>.fa {
+    color: #902866;
+}
+/* Button 4a */
+.button-4a>.fa {
+    left: 130%;
+    top: 0;
+}
+.button-4a:hover>.fa {
+    left: 80%;
+}
+
+</style>
+
+
+</head>
+
+<body style="background-color:#e600ec;">
+
+  <div align="center">
+
+
+  <!--<div class="deconstructed">
+    EXPLORE OUR PROJECTS
+    <div>EXPLORE OUR PROJECTS</div>
+    <div>EXPLORE OUR PROJECTS</div>
+    <div>EXPLORE OUR PROJECTS</div>
+    <div>EXPLORE OUR PROJECTS</div>
+  </div>
+<br><br>-->
+
+  <div class="container">
+	<div class="front side">
+		<div class="content">
+			<h1>PROJECT NAME</h1><br><br>
+			<img src="good-computer-science-projects-for-beginners.webp" alt="project image" height="250px" width="250px" align="center">
+		</div>
+	</div>
+	<div class="back side">
+		<div class="content">
+			<h1>PROJECT NAME</h1>
+			<p>PROJECT DESCRIPTION. SMALL DISCRIPTION ABOUT THE PROJECT.</p>
+      <p><div style="float:left;"><i class="fa fa-user" aria-hidden="true"><h4>USER NAME 1</h4></i><br><i class="fa fa-phone" aria-hidden="true"></i><h4>1111111111</h4></div>
+      <div style="float:right;"><i class="fa fa-user" aria-hidden="true"><h4>USER NAME 2</h4></i><br><i class="fa fa-phone" aria-hidden="true"></i><h4>1111111111</h4></div>
+    </p>
+
+
+
+
+
+      <section >
+           <a href="video.html"><button class="button button-4 button-4a icon-arrow-right" style="float:left;"><i class="fa fa-arrow-right"></i>VIDEO</button></a>
+           <a href="more.html"><button class="button button-4 button-4a icon-arrow-right" style="float:right;"><i class="fa fa-arrow-right"></i>MORE</button></a>
+
+
+
+   </section>
+
+   </div>
+
+		</div>
+	</div>
+
+</div>
+
+
+</body>
+</html>
